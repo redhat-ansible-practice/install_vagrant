@@ -1,0 +1,6 @@
+---
+# defaults file for install_vagrant
+
+vagrant_version: 2.2.4
+vagrant_rpm: "https://releases.hashicorp.com/vagrant/{{ vagrant_version }}/vagrant_{{ vagrant_version }}_x86_64.{{ package_type }}"
+package_type: rpm
